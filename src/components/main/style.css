@@ -1,0 +1,13 @@
+.conteudoPrincipal {
+  border-left: 1px solid #e7ecf0;
+  border-right: 1px solid #e7ecf0;
+}
+
+.conteudoPrincipal__titulo {
+  padding: 10px 30px;
+}
+
+.conteudoPrincipal__listaTweets {
+  display: flex;
+  flex-flow: column-reverse nowrap;
+}

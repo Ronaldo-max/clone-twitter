@@ -1,0 +1,10 @@
+.cabecalho {
+  margin-right: 20px;
+  padding-top: 20px;
+}
+.cabecalho__logo {
+  margin-bottom: 50px;
+}
+.cabecalho__logo figcaption {
+  display: none;
+}

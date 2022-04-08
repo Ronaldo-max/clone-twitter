@@ -1,0 +1,34 @@
+.conteudoPrincipal__formulario {
+  padding: 10px 30px;
+  border-top: 1px solid #e7ecf0;
+  border-bottom: 10px solid #e7ecf0;
+  text-align: right;
+}
+
+.conteudoPrincipal__formulario textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  height: 55px;
+  font-size: 18px;
+}
+
+.conteudoPrincipal__formulario textarea::placeholder {
+  font-size: 18px;
+}
+
+.conteudoPrincipal__formulario button {
+  background-color: #1da1f2;
+  border: none;
+  padding: 10px 24px;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.conteudoPrincipal__listaTweets {
+  display: flex;
+  flex-flow: column-reverse nowrap;
+}

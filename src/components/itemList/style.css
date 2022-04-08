@@ -1,0 +1,18 @@
+.cabecalho__menuItem {
+  margin-bottom: 25px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  width: 200px;
+}
+.cabecalho__menuItem img {
+  max-width: 26px;
+}
+.cabecalho__menuItem a {
+  color: #000;
+  text-decoration: none;
+  font-size: 22px;
+  vertical-align: top;
+}

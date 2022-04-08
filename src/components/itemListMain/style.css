@@ -1,0 +1,30 @@
+.conteudoPrincipal__tweet {
+  padding: 20px 32px;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #e7ecf0;
+}
+
+.conteudoPrincipal__tweet img {
+  width: 50px;
+}
+
+.tweet__conteudo {
+  margin-left: 15px;
+}
+
+.tweet__conteudo .tweet__conteudo__inform {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.tweet__conteudo .tweet__conteudo__inform span {
+  color: #828282;
+}
+
+.tweet__conteudo p {
+  margin-top: 15px;
+  color: #333333;
+}
