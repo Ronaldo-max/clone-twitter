@@ -1,15 +1,15 @@
 import "./style.css";
 
-export function ItemListMain({ src, alt, name, nameUser, textWrite }) {
+export function ItemListMain(props) {
   return (
     <li className="conteudoPrincipal__tweet">
-      <img className="tweet__fotoPerfil" src={src} alt={alt} />
+      <img className="tweet__fotoPerfil" src={props.src} alt={props.alt} />
       <div className="tweet__conteudo">
         <div className="tweet__conteudo__inform">
-          <h2>{name}</h2>
-          <span>{nameUser}</span>
+          <h2>{props.name}</h2>
+          <span>{props.nameUser} {props.time}</span>
         </div>
-        <p>{textWrite}</p>
+        <p>{props.textWrite}</p>
       </div>
     </li>
   );
